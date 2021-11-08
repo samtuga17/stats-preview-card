@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+    width: 70rem;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    background-color: hsl(244, 38%, 16%);
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+#span {
+    color: violet;
+}
+
+.content p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.stats p:first-child {
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+}
+
+.stats p:last-child{
+    color: hsl(0, 0%, 100%, 0.6);
+}
+
+.right {
+    width: 50%;
+    height: 400px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: hsl(277, 64%, 61%);
+    height: 400px;
+    opacity: .5;
+}
+
+
+
